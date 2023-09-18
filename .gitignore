@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.bak
+*.swp
+
+# Virtual Environment
+venv/
+.env
+.langchain_venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled files
+*.pyc
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Exclude the 'local_test_never_push' directory
+/local_test_never_push/
+
+/db
